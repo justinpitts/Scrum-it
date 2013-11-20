@@ -43,6 +43,7 @@
 		<org.slf4j.version>1.6.1</org.slf4j.version>
 		<org.hibernate.version>3.6.3.Final</org.hibernate.version>
 		<mysql.connector.version>5.1.15</mysql.connector.version>
+		<postgresql.jdbc.version></postgresql.jdbc.version>
 		<org.dbunit.version>2.4.8</org.dbunit.version>
 		<junit.version>4.8.2</junit.version>
 		<log4j.version>1.2.16</log4j.version>
@@ -166,6 +167,11 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.connector.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>${postgresql.jdbc.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
